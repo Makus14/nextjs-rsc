@@ -1,8 +1,8 @@
-import './globals.css';
+import "./globals.css";
 
 export const metadata = {
-  title: 'React RSC, Server Actions & More',
-  description: 'A thorough demo of advanced React features.',
+  title: "React RSC, Server Actions & More",
+  description: "A thorough demo of advanced React features.",
 };
 
 export default function RootLayout({ children }) {
