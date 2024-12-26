@@ -12,6 +12,12 @@ export default function ClientDemo({ children }) {
       <p>
         Will be rendered on the client <strong>AND</strong> the server.
       </p>
+      {/* <p>
+        <button onClick={() => setCount((prevCount) => prevCount + 1)}>
+          <span>{count}</span>
+          Increase
+        </button>
+      </p> */}
       {children}
     </div>
   );
